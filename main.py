@@ -6,9 +6,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # --- Email account setup ---
-sender_email = os.environ.get("agudadayo158@gmail.com")
-receiver_email = os.environ.get("androniqueglasgow14@gmail.com")
-password = os.environ.get("vxcwpdzutivapxqq")  # Use an app password, not your main password
+sender_email = os.environ.get("MY_EMAIL")
+receiver_email = os.environ.get("ANDG_EMAIL")
+password = os.environ.get("MY_PASSWORD")  # Use an app password, not your main password
 
 # --- Love messages bank (60 messages) ---
 messages = [
